@@ -1,11 +1,17 @@
 <!<!DOCTYPE html>
-<html>
+  <html>
+
   <head>
     <title>WEB1 - html</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="colors.js"></script>
   </head>
+
   <body>
+    <input id="nightday" type="button" value="night" onclick="nightDayHandler(this);" />
+
     <h1><a href="index.html">WEB</a></h1>
     <div id="grid">
       <ol>
@@ -16,12 +22,7 @@
       <div id="article">
         <h2>HTML</h2>
         <p>
-          <a
-            href="https://www.w3.org/"
-            target="_blank"
-            title="html5 spcification"
-            >Hypertext Markup Language (HTML)</a
-          >
+          <a href="https://www.w3.org/" target="_blank" title="html5 spcification">Hypertext Markup Language (HTML)</a>
           is the standard Markup language for
           <strong>creating <u>web</u> pages</strong>
           and web applications. web vrowsers receive HTML documents from a web
@@ -41,4 +42,5 @@
       </div>
     </div>
   </body>
-</html>
+
+  </html>
